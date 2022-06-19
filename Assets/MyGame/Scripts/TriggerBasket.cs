@@ -6,6 +6,7 @@ public class TriggerBasket : MonoBehaviour
 {
     public GameObject zaun;
     public int amountOfEggInBasket;
+    public AudioSource au;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -33,6 +34,7 @@ public class TriggerBasket : MonoBehaviour
         if (amountOfEggInBasket == 3)
         {
             zaun.SetActive(false);
+            GetComponent<AudioSource>().Play();
         }
     }
 }

@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3863863408732834107}
   - component: {fileID: 3863863408732834084}
-  - component: {fileID: 3863863408732834085}
+  - component: {fileID: 3447796716135984886}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -265,7 +265,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.20124246, y: 0.4116414, z: 0.18726541}
   m_Center: {x: 0, y: -3.5527092e-16, z: 0.1}
---- !u!114 &3863863408732834085
+--- !u!114 &3447796716135984886
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
