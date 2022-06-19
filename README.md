@@ -21,11 +21,23 @@ Oculus Rift/S; Quest/2
 ### Visuals: 
 Screenshots (concept and experience), Video
 
-![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
+![SkizzeMaze]![SkizzeLabyinth]![SkizzeLabyinth](https://user-images.githubusercontent.com/72389399/172833808-7b8a711e-8c2e-486a-bfbd-31d121b23b14.jpg)
 
 ### Third party material: 
 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+| Package Name | Package ID | Version |
+|:---|:---|:---|
+| JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
+| Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
+| Test Framework | com.unity.test-framework | 1.1.29 |
+| TextMeshPro | com.unity.textmeshpro | 3.0.6 |
+| Timeline | com.unity.timeline | 1.4.8 |
+| Unity UI | com.unity.ugui | 1.0.0 |
+| Version Control | com.unity.collab-proxy | 1.9.0 |
+| Visual Studio Code Editor | com.unity.ide.vscode | 1.2.3 |
+| Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
+| XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.1 |
+| XR Plugin Management | com.unity.xr.management | 4.2.1 |
 
 ### Limitations/Problems: 
 
