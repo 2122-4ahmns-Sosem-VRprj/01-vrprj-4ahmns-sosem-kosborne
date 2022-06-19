@@ -5,33 +5,24 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public int eggAmount = 0;
-    public Animator animator;
-    public GameObject egg1;
-    public GameObject egg2;
-    public GameObject egg3;
+    public Animator[] animator;
 
+    public GameObject RandomParent;
+    public GameObject finalEgg01 = null;
 
-    public void CollectingEgg()
+    public void CollectingEgg(int egg)
     {
         eggAmount++;
-        animator.SetBool("PickUp", true);
+        Debug.Log(egg);
+        animator[egg].SetBool("PickUp", true);
     }
 
-    public void Update()
+    public void InstantiateEgg()
     {
-        if (eggAmount == 1)
+        if (finalEgg01 == null && eggAmount == 1)
         {
-            Instantiate(egg1);
-        }
-
-        if (eggAmount == 2)
-        {
-            Instantiate(egg2);
-        }
-
-        if (eggAmount == 3)
-        {
-            Instantiate(egg3);
+            Debug.Log("Create final Egg!");
+            finalEgg01.gameObject.transform.parent = RandomParent.transform;
         }
     }
 
