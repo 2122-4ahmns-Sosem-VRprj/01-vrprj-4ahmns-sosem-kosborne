@@ -73,6 +73,10 @@ Und alle anderen Assets von dieser Website: https://assetstore.unity.com/
 | Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
 | XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.1 |
 | XR Plugin Management | com.unity.xr.management | 4.2.1 |
+|Post Process|
+
+### Issues:
+Wegen Assets ist die Performance sehr überlastet, das Eier aufheben funktioniert nicht ganz und die Animationen spielen nicht ab. Wird besser wenn man unnötige Assets rauslöscht.
 
 ### Wieso sollte man dieses Spiel spielen?:
 Das Spiel spricht den User auf vielen verschiedenen Ebenen an: 
